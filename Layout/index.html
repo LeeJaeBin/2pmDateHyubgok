@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/script.js"></script>
+    </head>
+    <body>
+        <div class="full-div">
+
+            <div class="account-menu-div">
+                <button id="login-button">로그인</button>
+                <button id="register-button">회원가입</button>
+            </div>
+
+            <div class="main-logo-div">
+                <img src="" alt="" id="main-logo-img">
+            </div>
+            <div class="search-area-div">
+                <div class="search-input-div">
+                    <input type="text" id="search-input" placeholder="닉네임 검색">
+                    <div id="option-button" onclick="dropdown()">
+                        <img src="../img/triangle.png" alt="" id="option-button-img">
+                    </div>
+                </div>
+                <div class="option-select-div">
+                    <div class="select-sex-div">
+                        <div class="male-female-div">
+                            <p id="sex-title"><strong>성별</strong></p>
+                            <div class="temp">
+                                <div id="male-button">
+                                    <img src="../img/male.png" alt="" id="male-img">
+                                </div>
+                                <div id="female-button">
+                                    <img src="../img/female.png" id="female-img" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="other-options-div">
+                        <div class="options-half1">
+                            <div class="options-area-div">
+                                <div class="options-contents">
+                                    <p id="options-title"><strong>나이</strong></p>
+                                </div>
+                            </div>
+                            <div class="options-area-div">
+                                <div class="options-contents">
+                                    <p id="options-title"><strong>주 라인</strong></p>
+                                </div>
+                            </div>
+                            <div class="options-area-div">
+                                <div class="options-contents">
+                                    <p id="options-title"><strong>선호 라인</strong></p>
+                                </div>
+                            </div>
+                            <div class="options-area-div">
+                                <div class="options-contents">
+                                    <p id="options-title"><strong>가능한 날짜</strong></p>
+                                </div>
+                            </div>
+                            <div class="options-area-div">
+                                <div class="options-contents">
+                                    <p id="options-title"><strong>티어</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="options-half2">
+                            <div class="options-area-div">
+                                <div class="options-space"></div>
+                                    <div class="options-contents">
+                                        <select name="age" id="age-select">
+                                            <option value="1">10대</option>
+                                            <option value="2">20대</option>
+                                            <option value="3">30대</option>
+                                            <option value="4">40대</option>
+                                        </select>
+                                    </div>
+                                <div class="options-space"></div>
+                            </div>
+                            <div class="options-area-div">
+                                <div class="options-space"></div>
+                                    <div class="options-contents">
+                                        <select name="line" id="line-select">
+                                            <option value="1">원딜</option>
+                                            <option value="2">서폿</option>
+                                            <option value="3">미드</option>
+                                            <option value="4">정글</option>
+                                            <option value="5">탑</option>
+                                        </select>
+                                    </div>
+                                <div class="options-space"></div>
+                            </div>
+                            <div class="options-area-div">
+                                <div class="options-space"></div>
+                                    <div class="options-contents">
+                                        <select name="wantline" id="line-select">
+                                            <option value="1">원딜</option>
+                                            <option value="2">서폿</option>
+                                            <option value="3">미드</option>
+                                            <option value="4">정글</option>
+                                            <option value="5">탑</option>
+                                        </select>
+                                    </div>
+                                <div class="options-space"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,215 @@
+body{
+    background-color: #3f116f;
+}
+.full-div{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    width:1500px;
+    height:900px;
+}
+.account-menu-div{
+    height:100px;
+    line-height: 100px;
+    width:80%;
+    display: table;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+#login-button{
+    cursor: pointer;
+    border-radius:4px;
+    color:white;
+    background-color: #7e22df;
+    float:right;
+    margin-top: 30px;
+    border: 2px solid white;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#register-button{
+    cursor: pointer;
+    border-radius:4px;
+    color:white;
+    background-color: #7e22df;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+    border: 2px solid white;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main-logo-div{
+    height:250px;
+    width:100%;
+}
+#main-logo-img{
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    width:50%;
+    border:1px solid black;
+}
+.search-area-div{
+    height:500px;
+    width:100%;
+}
+.search-input-div{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+#search-input{
+    border-radius:3px;
+    width: 93%;
+    height:47px;
+    font-size: 20px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:1px solid white;
+}
+#option-button{
+    cursor: pointer;
+    border-radius:3px;
+    height:45px;
+    float:right;
+    background-color: #7e22df;
+    width:6%;
+    border:1px solid #ABB2B9;
+}
+#option-button-img{
+    margin-top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width:70%;
+    height:70%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.option-select-div{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    display:none;
+    border:1px solid #ABB2B9;
+    height:400px;
+    background-color: #e8e8e7;
+    
+}
+.select-sex-div{
+    height:100%;
+    width:35%;
+    float: left;
+}
+.male-female-div{
+    height:100%;
+    width:55%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.temp{
+    height:70%;
+    margin-top:10%;
+}
+#male-button{
+    height:48%;
+    width:100%;
+    background-color: #1c6ef9;
+    border:1px solid #1c6ef9;
+    
+    border-radius: 5px;
+}
+#female-button{
+    height:48%;
+    width:100%;
+    background-color: #fd4aaf;
+    border:1px solid #fd4aaf;
+    margin-top:4%;
+    border-radius: 5px;
+}
+#male-img{
+    margin-top:12%;
+    height:70%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+#female-img{
+    margin-top:12%;
+    height:70%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+#sex-title{
+    color:#3f3f3e;
+    font-size:25px;
+    margin:0px;
+    margin-top:15%;
+}
+.other-options-div{
+    float:right;
+    width:64%;
+    height:100%;
+}
+.options-half1{
+    float:left;
+    width:35%;
+    height:100%;
+}
+.options-half2{
+    float:right;
+    width:64%;
+    height:100%;
+}
+.options-area-div{
+    width:100%;
+    height:19%;
+    line-height:76px;
+}
+.options-space{
+    width:100%;
+    height:30%;
+}
+.options-contents{
+    height:40%;
+    width:100%;
+}
+#options-title{
+    color:#3f3f3e;
+    font-size:22px;
+    margin:0px;
+    padding-left: 20px;
+    float: left;
+}
+#age-select-wrapper{
+    float: left;
+    height:100%;
+    width:50%;
+}
+#age-select{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    font-size:15px;
+}
+#age-space{
+    width:10px;
+    height:15%;
+}
+#line-select{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    font-size:15px;
+}
