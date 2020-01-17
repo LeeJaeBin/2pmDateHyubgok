@@ -1,3 +1,4 @@
+/* ----------- index.html ------------- */
 body{
     background-color: #3f116f;
     font-family: 'Nanum Brush Script', cursive;
@@ -106,7 +107,7 @@ body{
     width:50%;
     margin-left:auto;
     margin-right:auto;
-    display:block;
+    display:none;
     border:1px solid #ABB2B9;
     height:400px;
     background-color: #e8e8e7;
@@ -278,4 +279,43 @@ body{
     font-size:20px;
     font-family: 'Nanum Brush Script', cursive;
     border:1px solid white;
+}
+
+
+
+
+/* ----------- login.html ------------- */
+.login-area-div{
+    border-radius: 5px;
+    width:25%;
+    height:60%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    border:1px solid white;
+    background-color: #78589a;
+    margin-top:8%;
+}
+.login-full-div{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    width:1500px;
+}
+.login-contents-div{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.login-title-div{
+    width:100%;
+    margin-top: 100px;
+}
+#login-title-text{
+    font-size: 50px;
+    margin: 0px;
+}
+#login-id-input{
+    width:100%;
 }
