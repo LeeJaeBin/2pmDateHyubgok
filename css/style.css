@@ -100,7 +100,7 @@ body{
     width:50%;
     margin-left:auto;
     margin-right:auto;
-    display:none;
+    display:block;
     border:1px solid #ABB2B9;
     height:400px;
     background-color: #e8e8e7;
@@ -108,7 +108,7 @@ body{
 }
 .select-sex-div{
     height:100%;
-    width:35%;
+    width:30%;
     float: left;
 }
 .male-female-div{
@@ -118,7 +118,7 @@ body{
     margin-right:auto;
 }
 .temp{
-    height:70%;
+    height:60%;
     margin-top:10%;
 }
 #male-button{
@@ -126,7 +126,6 @@ body{
     width:100%;
     background-color: #1c6ef9;
     border:1px solid #1c6ef9;
-    
     border-radius: 5px;
 }
 #female-button{
@@ -159,17 +158,17 @@ body{
 }
 .other-options-div{
     float:right;
-    width:64%;
+    width:69%;
     height:100%;
 }
 .options-half1{
     float:left;
-    width:35%;
+    width:28%;
     height:100%;
 }
 .options-half2{
     float:right;
-    width:64%;
+    width:71%;
     height:100%;
 }
 .options-area-div{
@@ -189,7 +188,6 @@ body{
     color:#3f3f3e;
     font-size:22px;
     margin:0px;
-    padding-left: 20px;
     float: left;
 }
 #age-select-wrapper{
@@ -202,6 +200,7 @@ body{
     padding-right: 15px;
     height: 100%;
     font-size:15px;
+    border:1px solid white;
 }
 #age-space{
     width:10px;
@@ -212,4 +211,59 @@ body{
     padding-right: 15px;
     height: 100%;
     font-size:15px;
+    border:1px solid white;
+}
+.year-area-div{
+    height:100%;
+    float: left;
+    width:27%;
+}
+#year-select{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    font-size:15px;
+    border:1px solid white;
+    float: left;
+}
+#year-title{
+    padding-right: 3%;
+    color:#3f3f3e;
+    font-size:22px;
+    float: left;
+    margin : 0px;
+    height:29px;
+}
+.month-area-div{
+    height:100%;
+    float: left;
+    width:22%;
+}
+#month-select{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    font-size:15px;
+    border:1px solid white;
+    float: left;
+}
+.date-area-div{
+    height:100%;
+    float: left;
+    width:22%;
+}
+#date-select{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    font-size:15px;
+    border:1px solid white;
+    float: left;
+}
+#rank-select{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    font-size:15px;
+    border:1px solid white;
 }
