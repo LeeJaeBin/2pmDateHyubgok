@@ -39,3 +39,20 @@ function clickedWoman(){
     document.getElementById("sexValue").value = "woman";
     document.getElementById("sex-diamond-text").innerHTML = "<strong>여</strong>";
 }
+
+function ageClick(){
+    var optionContents = document.getElementsByClassName("option-contents-div")[0];
+    document.getElementsByClassName("age-select")[0].style = "display: block; margin-left:26px;"
+    optionContents.style = "-webkit-filter: blur(5px); -moz-filter: blur(5px);-o-filter: blur(5px); -ms-filter: blur(5px); filter: blur(5px);background-color: #FFFFFF;"; // Code for Safari 3.1 to 6.0
+    optionContents.style.transition = "all 0.5s";
+    document.getElementById("select-age-input").focus();
+}
+
+function cancelAge(){
+    document.getElementsByClassName("age-select")[0].style = "display: none;";
+    var optionContents = document.getElementsByClassName("option-contents-div")[0];
+    optionContents.style = "";
+    
+    document.getElementById("ageValue").value = document.getElementById("select-age-input").value;
+    document.getElementById("age-diamond-text").innerHTML = "<strong>" + document.getElementById("select-age-input").value + "</strong>";
+}
