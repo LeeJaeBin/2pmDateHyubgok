@@ -3,7 +3,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="../css/style.css">
         <script src="../js/script.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     </head>
     <body>
 
@@ -20,182 +20,11 @@
                 <div class="search-input-div">
                     <input type="text" id="search-input" placeholder="닉네임 검색">
                     <div id="option-button" onclick="dropdown()">
-                        <img src="../img/triangle.png" alt="" id="option-button-img">
+                        <img src="../img/arrow.png" alt="" id="option-button-img">
                     </div>
                 </div>
                 <div class="option-select-div">
-                    <div class="select-sex-div">
-                        <div class="male-female-div">
-                            <p id="sex-title"><strong>성별</strong></p>
-                            <div class="temp">
-                                <div id="male-button">
-                                    <img src="../img/male.png" alt="" id="male-img">
-                                </div>
-                                <div id="female-button">
-                                    <img src="../img/female.png" id="female-img" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     
-                    <div class="other-options-div">
-                        <div class="options-half1">
-                            <div class="options-area-div">
-                                <div class="options-contents">
-                                    <p id="options-title"><strong>나이</strong></p>
-                                </div>
-                            </div>
-                            <div class="options-area-div">
-                                <div class="options-contents">
-                                    <p id="options-title"><strong>주 라인</strong></p>
-                                </div>
-                            </div>
-                            <div class="options-area-div">
-                                <div class="options-contents">
-                                    <p id="options-title"><strong>선호 라인</strong></p>
-                                </div>
-                            </div>
-                            <div class="options-area-div">
-                                <div class="options-contents">
-                                    <p id="options-title"><strong>가능한 날짜</strong></p>
-                                </div>
-                            </div>
-                            <div class="options-area-div">
-                                <div class="options-contents">
-                                    <p id="options-title"><strong>티어</strong></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="options-half2">
-                            <div class="options-area-div">
-                                <div class="options-space"></div>
-                                    <div class="options-contents">
-                                        <select name="age" id="age-select">
-                                            <option value="1">10대</option>
-                                            <option value="2">20대</option>
-                                            <option value="3">30대</option>
-                                            <option value="4">40대</option>
-                                        </select>
-                                    </div>
-                                <div class="options-space"></div>
-                            </div>
-                            <div class="options-area-div">
-                                <div class="options-space"></div>
-                                    <div class="options-contents">
-                                        <select name="line" id="line-select">
-                                            <option value="1">원딜</option>
-                                            <option value="2">서폿</option>
-                                            <option value="3">미드</option>
-                                            <option value="4">정글</option>
-                                            <option value="5">탑</option>
-                                        </select>
-                                    </div>
-                                <div class="options-space"></div>
-                            </div>
-                            <div class="options-area-div">
-                                <div class="options-space"></div>
-                                    <div class="options-contents">
-                                        <select name="wantline" id="line-select">
-                                            <option value="1">원딜</option>
-                                            <option value="2">서폿</option>
-                                            <option value="3">미드</option>
-                                            <option value="4">정글</option>
-                                            <option value="5">탑</option>
-                                        </select>
-                                    </div>
-                                <div class="options-space"></div>
-                            </div>
-                            <div class="options-area-div">
-                                <div class="year-area-div">
-                                    <div class="options-space"></div>
-                                    <div class="options-contents">
-                                        <select name="year" id="year-select">
-                                            <option value="2020">2020</option>
-                                            <option value="2021">2021</option>
-                                        </select>
-                                    </div>
-                                    <div class="options-space"></div>
-                                </div>
-                                <p id="year-title"><strong>년</strong></p>
-                                <div class="month-area-div">
-                                    <div class="options-space"></div>
-                                    <div class="options-contents">
-                                        <select name="month" id="month-select">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="1">3</option>
-                                            <option value="2">4</option>
-                                            <option value="1">5</option>
-                                            <option value="2">6</option>
-                                            <option value="1">7</option>
-                                            <option value="2">8</option>
-                                            <option value="1">9</option>
-                                            <option value="2">10</option>
-                                            <option value="1">11</option>
-                                            <option value="2">12</option>
-                                        </select>
-                                    </div>
-                                    <div class="options-space"></div>
-                                </div>
-                                <p id="year-title"><strong>월</strong></p>
-                                <div class="date-area-div">
-                                    <div class="options-space"></div>
-                                    <div class="options-contents">
-                                        <select name="date" id="date-select">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="1">3</option>
-                                            <option value="2">4</option>
-                                            <option value="1">5</option>
-                                            <option value="2">6</option>
-                                            <option value="1">7</option>
-                                            <option value="2">8</option>
-                                            <option value="1">9</option>
-                                            <option value="2">10</option>
-                                            <option value="1">11</option>
-                                            <option value="2">12</option>
-                                            <option value="1">13</option>
-                                            <option value="2">14</option>
-                                            <option value="1">15</option>
-                                            <option value="2">16</option>
-                                            <option value="1">17</option>
-                                            <option value="2">18</option>
-                                            <option value="1">19</option>
-                                            <option value="2">20</option>
-                                            <option value="1">21</option>
-                                            <option value="2">22</option>
-                                            <option value="1">23</option>
-                                            <option value="2">24</option>
-                                            <option value="1">25</option>
-                                            <option value="2">26</option>
-                                            <option value="1">27</option>
-                                            <option value="2">28</option>
-                                            <option value="1">29</option>
-                                            <option value="2">30</option>
-                                            <option value="1">31</option>
-                                        </select>
-                                    </div>
-                                    <div class="options-space"></div>
-                                </div>
-                                <p id="year-title"><strong>일</strong></p>
-                            </div>
-                            <div class="options-area-div">
-                                <div class="options-space"></div>
-                                    <div class="options-contents">
-                                        <select name="rank" id="rank-select">
-                                            <option value="1">아이언</option>
-                                            <option value="2">브론즈</option>
-                                            <option value="3">실버</option>
-                                            <option value="4">골드</option>
-                                            <option value="5">플래티넘</option>
-                                            <option value="6">다이아몬드</option>
-                                            <option value="7">마스터/그랜드마스터/챌린저</option>
-                                        </select>
-                                    </div>
-                                <div class="options-space"></div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
