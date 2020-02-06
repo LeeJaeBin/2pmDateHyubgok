@@ -98,7 +98,7 @@ body{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     width:45%;
-    height:50%;
+    height:45%;
     margin-left:auto;
     margin-right:auto;
     display:block;
@@ -129,12 +129,95 @@ body{
     margin-top:10%;
 }
 #search-hr{
-    width:90%;
+    width:95%;
     margin-left:auto;
     margin-right:auto;
     display:block;
 }
-
+.option-contents-div{
+    width:25%;
+    height:85%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.option-layer{
+    width:100%;
+    height:33%;
+}
+.option-layer-inner{
+    width:100%;
+    height:40%;
+    line-height: 49px;
+    vertical-align: middle;
+    text-align:center;
+}
+#option-layer-title{
+    margin:0px;
+}
+.option-layer-diamond{
+    width: 100%;
+    height:60%;
+}
+.diamond-left{
+    width: 50%;
+    float:left;
+}
+.diamond-right{
+    width: 50%;
+    float:right;
+}
+#diamond-img{
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.sex-select{
+    display: none;
+    width:700px;
+    height:355px;
+    position: fixed;
+    z-index: 10000000;
+    background: rgba(255,255,255,0.1);
+    transition: 1s;
+}
+.sex-select-inner{
+    width:20%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    transition: 1s;
+    text-align: center;
+}
+#select-title{
+    margin:0px;
+    margin-top: 5%;
+    font-size:25px;
+    padding:0px;
+}
+#select-sex-text{
+    text-align: center;
+    margin:0px;
+    cursor: pointer;
+    margin-top: 3%;
+    font-size:40px;
+}
+#diamond-text-div{
+    position:absolute;
+    width:50px;
+    height:70px;
+    margin-left:21px;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+}
+#diamond-text{
+    margin:0px;
+    font-size:25px;
+    font-family: 'Noto Sans KR', sans-serif;
+    cursor: pointer;
+}
 
 /* ----------- login.html ------------- */
 .login-area-div{
