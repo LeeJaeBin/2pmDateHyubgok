@@ -7,7 +7,7 @@ body{
     margin-left:auto;
     margin-right:auto;
     display:block;
-    width:1500px;
+    width:1200px;
     height:900px;
 }
 .account-menu-div{
@@ -76,7 +76,7 @@ body{
 #search-input{
     font-family: 'Noto Sans KR', sans-serif;
     float: left;
-    width: 93.7%;
+    width: 92%;
     height:47px;
     font-size: 15px;
     padding-top:8px;
@@ -90,13 +90,13 @@ body{
     height:45px;
     float:left;
     background-color: #70408b;
-    width:6%;
+    width:7.6%;
     border:1px solid #70408b;
 }
 #option-button-img{
     margin-top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -ms-transform: translateY(-45%);
+    transform: translateY(-45%);
     width:45%;
     height:45%;
     margin-left:auto;
@@ -130,6 +130,7 @@ body{
 }
 #search-hr{
     width:95%;
+    border:0.5px solid black;
     margin-left:auto;
     margin-right:auto;
     display:block;
@@ -176,8 +177,8 @@ body{
 .sex-select{
     margin-top:1%;
     display: none;
-    width:700px;
-    height:355px;
+    width:550px;
+    height:330px;
     position: fixed;
     z-index: 10000000;
     background: rgba(255,255,255,0.1);
@@ -217,7 +218,7 @@ body{
     position:absolute;
     width:50px;
     height:70px;
-    margin-left:21px;
+    margin-left:12px;
     text-align: center;
     line-height: 70px;
     cursor: pointer;
@@ -231,8 +232,8 @@ body{
 .age-select{
     padding-top:1%;
     display: none;
-    width:700px;
-    height:355px;
+    width:550px;
+    height:330px;
     position: fixed;
     z-index: 10000000;
     background: rgba(255,255,255,0.1);
@@ -266,8 +267,8 @@ body{
 .mainLine-select{
     padding-top:1%;
     display: none;
-    width:700px;
-    height:355px;
+    width:550px;
+    height:330px;
     position: fixed;
     z-index: 10000000;
     background: rgba(255,255,255,0.1);
@@ -282,18 +283,18 @@ body{
     transition: 1s;
 }
 .map-overlay-div{
-    width:210px;
-    height:210px;
+    width:165px;
+    height:165px;
     position: absolute;
 }
 .line-div{
     width:99%;
-    height:19%;
+    height:18.5%;
     border: 1px solid transparent;
 }
 .line-info-text{
     margin:0px;
-    line-height: 41px;
+    line-height: 33px;
     font-size:22px;
     cursor: pointer;
 }
