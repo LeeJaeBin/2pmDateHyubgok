@@ -49,6 +49,34 @@
                     <input type="hidden" value="none" id="ageValue" name="age">
                 </div>
 
+                <div class="mainLine-select" onclick="cancelMainLine()">
+                    <div class="mainLine-select-inner">
+                        <p id="select-title"><strong>주라인</strong></p>
+                    </div>
+                    <div class="mainLine-select-inner">
+                        <div class="map-overlay-div">
+                            <div class="line-div">
+                                <p class="line-info-text" style="margin-left:5%;" onclick="selectTop()"><strong>탑</strong></p class="line-info-text">
+                            </div>
+                            <div class="line-div">
+                                <p class="line-info-text" style="margin-left:15%;" onclick="selectJungle()"><strong>정글</strong></p>
+                            </div>
+                            <div class="line-div">
+                                <p class="line-info-text" style="text-align: center;" onclick="selectMid()"><strong>미드</strong></p class="line-info-text">
+                            </div>
+                            <div class="line-div">
+                                <p class="line-info-text" style="float:right; margin-right:15%;" onclick="selectSup()"><strong>서포터</strong></p class="line-info-text">
+                            </div>
+                            <div class="line-div">
+                                <p class="line-info-text" style="float:right; margin-right:5%;" onclick="selectBot()"><strong>봇</strong></p class="line-info-text">
+                            </div>
+                        </div>
+                        <img src="../img/map.png" alt="" style="width:100%;">
+                    </div>
+                    <input type="hidden" value="none" id="mainLineValue" name="mainLine">
+                    <input type="hidden" value="none" id="minorLineValue" name="minorLine">
+                </div>
+
                 <div class="option-contents-div">
                     <div class="option-layer">
                         <div class="option-layer-inner">
@@ -75,10 +103,16 @@
                         </div>
                         <div class="option-layer-diamond">
                             <div class="diamond-left">
-                                <img src="../img/white-diamond.png" id="diamond-img" alt="">
+                                <div id="diamond-text-div" onclick="mainLineClick();">
+                                    <p id="mainLine-diamond-text"></p>
+                                </div>
+                                <img src="../img/white-diamond.png" id="diamond-img">
                             </div>
                             <div class="diamond-right">
-                                <img src="../img/white-diamond.png" id="diamond-img" alt="">
+                                <div id="diamond-text-div" onclick="minorLineClick();">
+                                    <p id="minorLine-diamond-text"></p>
+                                </div>
+                                <img src="../img/white-diamond.png" id="diamond-img">
                             </div>
                         </div>
                     </div>

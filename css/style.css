@@ -197,6 +197,7 @@ body{
     margin-top: 5%;
     font-size:25px;
     padding:0px;
+    text-align: center;
 }
 #select-sex-text{
     text-align: center;
@@ -254,6 +255,54 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
     cursor: pointer;
 }
+
+.mainLine-select{
+    padding-top:1%;
+    display: none;
+    width:700px;
+    height:355px;
+    position: fixed;
+    z-index: 10000000;
+    background: rgba(255,255,255,0.1);
+    transition: 1s;
+}
+.mainLine-select-inner{
+    margin-top:2%;
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    transition: 1s;
+}
+.map-overlay-div{
+    width:210px;
+    height:210px;
+    position: absolute;
+}
+.line-div{
+    width:99%;
+    height:19%;
+    border: 1px solid transparent;
+}
+.line-info-text{
+    margin:0px;
+    line-height: 41px;
+    font-size:22px;
+    cursor: pointer;
+}
+#mainLine-diamond-text{
+    margin:0px;
+    font-size:22px;
+    font-family: 'Noto Sans KR', sans-serif;
+    cursor: pointer;
+}
+#minorLine-diamond-text{
+    margin:0px;
+    font-size:22px;
+    font-family: 'Noto Sans KR', sans-serif;
+    cursor: pointer;
+}
+
 
 /* ----------- login.html ------------- */
 .login-area-div{
