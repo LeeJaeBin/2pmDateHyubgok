@@ -60,6 +60,7 @@ function cancelAge(){
 
 function mainLineClick(){
     isMain = 1;
+    document.getElementById("select-title-line").innerHTML = "<strong>주라인</strong>";
     var optionContents = document.getElementsByClassName("option-contents-div")[0];
     document.getElementsByClassName(" mainLine-select")[0].style = "display: block; margin-left:26px;"
     optionContents.style = "-webkit-filter: blur(5px); -moz-filter: blur(5px);-o-filter: blur(5px); -ms-filter: blur(5px); filter: blur(5px);background-color: #FFFFFF;"; // Code for Safari 3.1 to 6.0
@@ -126,6 +127,7 @@ function selectBot(){
 
 function minorLineClick(){
     isMain = 0;
+    document.getElementById("select-title-line").innerHTML = "<strong>보조라인</strong>";
     var optionContents = document.getElementsByClassName("option-contents-div")[0];
     document.getElementsByClassName(" mainLine-select")[0].style = "display: block; margin-left:26px;"
     optionContents.style = "-webkit-filter: blur(5px); -moz-filter: blur(5px);-o-filter: blur(5px); -ms-filter: blur(5px); filter: blur(5px);background-color: #FFFFFF;"; // Code for Safari 3.1 to 6.0

@@ -199,6 +199,13 @@ body{
     padding:0px;
     text-align: center;
 }
+#select-title-line{
+    margin:0px;
+    margin-top: 5%;
+    font-size:25px;
+    padding:0px;
+    text-align: center;
+}
 #select-sex-text{
     text-align: center;
     margin:0px;
